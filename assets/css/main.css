@@ -4163,3 +4163,40 @@ input, select, textarea {
 					}
 
 	}
+
+
+/*Mobile Settings*/
+
+@media screen
+and (max-width: 1280px){
+	#banner .content {
+		width: 100%;
+	}
+	#banner .cursor{
+		display: none;
+	}
+}
+
+@media screen
+and (max-width: 980px){
+	#banner .content {
+		width: 100%;
+	}
+	#banner .cursor{
+		display: none;
+	}
+	/* #banner .row{
+		display: flex;
+		flex-wrap: wrap; 
+	}
+	#banner .row span{
+		position: absolute;
+		left: 0px;
+	} */
+	.content p{
+		text-align: left;
+	}
+	.content h3{
+		text-align: left;
+	}
+}
