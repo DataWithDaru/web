@@ -1452,7 +1452,7 @@ input, select, textarea {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
-				align-items: stretch;
+				align-items: stretch; 
 			}
 
 				.row > * {
@@ -1509,7 +1509,7 @@ input, select, textarea {
 
 				.row > .col-3-medium {
 					width: 25%;
-				}
+				}*/
 
 				.row > .off-3-medium {
 					margin-left: 25%;
@@ -1517,7 +1517,7 @@ input, select, textarea {
 
 				.row > .col-4-medium {
 					width: 33.33333%;
-				}
+				} 
 
 				.row > .off-4-medium {
 					margin-left: 33.33333%;
@@ -1532,8 +1532,8 @@ input, select, textarea {
 				}
 
 				.row > .col-6-medium {
-					width: 50%;
-				}
+					width: 90px;
+				} 
 
 				.row > .off-6-medium {
 					margin-left: 50%;
@@ -1561,9 +1561,9 @@ input, select, textarea {
 
 				.row > .off-9-medium {
 					margin-left: 75%;
-				}
+				} */
 
-				.row > .col-10-medium {
+				 .row > .col-10-medium {
 					width: 83.33333%;
 				}
 
@@ -1585,7 +1585,7 @@ input, select, textarea {
 
 				.row > .off-12-medium {
 					margin-left: 100%;
-				}
+				} 
 
 				.row.gtr-0 {
 					margin-top: 0;
@@ -1602,9 +1602,9 @@ input, select, textarea {
 
 						.row.gtr-0.gtr-uniform > * {
 							padding-top: 0em;
-						}
+						} 
 
-				.row.gtr-25 {
+				 .row.gtr-25 {
 					margin-top: 0;
 					margin-left: -0.625em;
 				}
@@ -1619,9 +1619,9 @@ input, select, textarea {
 
 						.row.gtr-25.gtr-uniform > * {
 							padding-top: 0.625em;
-						}
+						} 
 
-				.row.gtr-50 {
+				 .row.gtr-50 {
 					margin-top: 0;
 					margin-left: -1.25em;
 				}
@@ -1636,9 +1636,9 @@ input, select, textarea {
 
 						.row.gtr-50.gtr-uniform > * {
 							padding-top: 1.25em;
-						}
+						} 
 
-				.row {
+				 .row {
 					margin-top: 0;
 					margin-left: -2.5em;
 				}
@@ -1653,9 +1653,9 @@ input, select, textarea {
 
 						.row.gtr-uniform > * {
 							padding-top: 2.5em;
-						}
+						} 
 
-				.row.gtr-150 {
+				 .row.gtr-150 {
 					margin-top: 0;
 					margin-left: -3.75em;
 				}
@@ -1670,9 +1670,9 @@ input, select, textarea {
 
 						.row.gtr-150.gtr-uniform > * {
 							padding-top: 3.75em;
-						}
+						} 
 
-				.row.gtr-200 {
+				 .row.gtr-200 {
 					margin-top: 0;
 					margin-left: -5em;
 				}
@@ -2070,7 +2070,7 @@ input, select, textarea {
 				}
 
 				.row > .col-12-xsmall {
-					width: 100%;
+					width: 24%;
 				}
 
 				.row > .off-12-xsmall {
@@ -4175,6 +4175,9 @@ and (max-width: 1280px){
 	#banner .cursor{
 		display: none;
 	}
+	.cursor {
+		display: none;
+	};
 }
 
 @media screen
@@ -4185,18 +4188,13 @@ and (max-width: 980px){
 	#banner .cursor{
 		display: none;
 	}
-	/* #banner .row{
-		display: flex;
-		flex-wrap: wrap; 
-	}
-	#banner .row span{
-		position: absolute;
-		left: 0px;
-	} */
 	.content p{
 		text-align: left;
 	}
 	.content h3{
 		text-align: left;
 	}
+	/* .row.gtr-uniform{
+		display: none;
+	} */
 }
