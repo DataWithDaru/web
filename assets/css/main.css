@@ -227,16 +227,16 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 4px rgba(255, 255, 255, 0.3);
+		border-left: solid 4px gray;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
 	}
 
 	.blockquoteright {
-		border-right: solid 4px rgba(255, 255, 255, 0.3);
+		border-right: solid 4px gray;
 		font-style: italic;
-		margin-right:2em;
+		margin-left:2em;
 		padding-right: 2em;
 		text-align: right;
 	}
