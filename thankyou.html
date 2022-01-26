@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Daru Broodryk | Thank you!</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!--Lotti Files-->
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	</head>
+	
+	<body class="is-preload landing">
+        
+		<div id="page-wrapper">		
+		<!-- Header -->
+			<header id="header">
+				<h1 id="logo"><a href="index.html">Portfolio</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="projects.html">Projects</a></li>
+							<li><a href="thankyou.html">Thanks</a></li>
+							<li><a href="#five" class="button primary">Get in touch</a></li>
+						</ul>
+					</nav>
+			</header>
+
+	
+    <div class="cursor"></div>
+   
+    <div class="Iam">
+
+        <p>Thank you for</p>
+        <b>
+          <div class="innerIam">
+            reaching out<br/> 
+            clicking around<br/>
+            taking a look at my projects<br/>
+            reading this loop<br/>
+            your time <br/>
+            </div>
+        </b>
+        
+        </div>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_edoysgy6.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; position: absolute; left: 45%;top: 50%;"  loop  autoplay></lottie-player>
+
+    <script>
+        const cursor = document.querySelector('.cursor');
+
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style", "top: "+(e.pageY - 15)+"px; left: "+(e.pageX - 15) +"px;")
+        })
+
+        document.addEventListener('click', () => {
+            cursor.classList.add("expand");
+
+            setTimeout(() => {
+                cursor.classList.remove("expand");
+            }, 500)
+        })
+
+    </script>
+</body>
+</html>
