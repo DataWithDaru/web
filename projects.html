@@ -124,30 +124,32 @@
 				</div>
 			<!-- five -->
 			<section id="five" class="wrapper style2 special fade">
-					<div class="container">
-						<header>
-							<h2>Don't be shy, let's talk.</h2>
-						</header>
-						<form method="post" action="#">
-							<div class="row gtr-uniform gtr-50">
-								<div class="col-6 col-12-xsmall">
-									<input type="text" name="name" id="name" value="" placeholder="Name" />
-								</div>
-								<div class="col-6 col-12-xsmall">
-									<input type="email" name="email" id="email" value="" placeholder="Email" />
-								</div>							
-								<div class="col-12">
-									<textarea name="message" id="message" placeholder="Say somethiong.." rows="2"></textarea>
-								</div>
-								<div class="col-12">
-									<ul class="actions">
-										<li><input type="submit" value="Send" class="primary small" /></li>
-									</ul>
-								</div>
+				<div class="container">
+					<header>
+						<h2>Don't be shy, let's talk.</h2>
+					</header>
+					<form method="POST" action="https://formsubmit.co/dbroodryk@outlook.com">
+						<div class="row gtr-uniform gtr-50">
+							<div class="col-6 col-12-xsmall">
+								<input type="text" name="name" id="name" value="" placeholder="Name" required/>
 							</div>
-						</form>
-					</div>
-				</section>
+							<div class="col-6 col-12-xsmall">
+								<input type="email" name="email" id="email" value="" placeholder="Email" required />
+							</div>							
+							<div class="col-12">
+								<textarea name="message" id="message" placeholder="Say somethiong.." rows="2"></textarea>
+							</div>
+							<div class="col-12">
+								<ul class="actions">
+									<li><input type="submit" value="Send" class="primary small" /></li>
+								</ul>
+							</div>
+						</div>
+						<input type="hidden" name="_next" value="https://datawithdaru.github.io/web/thankyou.html">
+						<input type="hidden" name="_subject" value="New submission!">
+					</form>
+				</div>
+			</section>
 
 			<!-- Footer -->
 			<footer id="footer">
