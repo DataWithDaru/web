@@ -39,7 +39,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .layer1{
-	background-image: url(/files/wave.svg);
+	background-image: url(../../files/wave.svg);
 }
 
 
@@ -51,7 +51,7 @@ footer, header, hgroup, menu, nav, section {
 	background-size:cover;
 }
 .layer2{
-	background-image: url(/files/wave2.svg);
+	background-image: url(../../files/wave2.svg);
 }
 
 
