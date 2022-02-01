@@ -154,7 +154,7 @@ DEMO
 	--accentColorDark: #070707;
 	--blackColor: rgb(0, 0, 0);
 	--whiteColor: #fff;
-	--rLinkTextColor: black;
+	--rLinkTextColor: white;
 }	
 
 .page{
@@ -190,10 +190,12 @@ DEMO
 
 .news{
 	position: relative;
+	left: -25%;
+	width: 70vw;
 	padding: 70px 6%;
 	border-left: 6px solid var(--mainColor);
+	box-shadow: 5px 5px 100px black;
 	border-radius: 4px;
-	background-color: var(--whiteColor);
 }
 
 .news:nth-child(n+2){
@@ -215,7 +217,7 @@ DEMO
 }
 
 .news__content{
-	color: black;
+	color: white;
 	margin-top: 1.875rem;
 }
 
