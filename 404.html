@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Daru Broodryk | Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!--Lotti Files-->
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=61f93ada7e3130001966f170&product=sop' async='async'></script>
+	</head>
+	
+	<body>
+        
+		<div id="page-wrapper">		
+		<!-- Header -->
+			<header id="header">
+				<h1 id="logo">Portfolio</h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="projects.html">Projects</a></li>
+						</ul>
+					</nav>
+			</header>
+
+	
+    <div class="cursor"></div>
+   
+    <div class="Iam">
+
+        <p style="margin-bottom: 5%;">OOPS 404 </p>
+        <b>
+          <div class="innerIam">
+            your lost?<br/> 
+            Ko to ngaro?<br/>
+            you need to go back?<br/>
+            need a snack?<br/>
+            or maybe need a break?<br/>
+            your time <br/>
+            </div>
+        </b>
+        
+        </div>
+
+
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_wbwoxby3.json"  background="transparent"  speed="1"  style="width: 400px; height: 500px; margin: auto;"  loop  autoplay></lottie-player>
+
+    <ul class="icons" style="position: relative;left: 50%;">
+        <li><a href="https://www.linkedin.com/in/daru-broodryk-609192139/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+        <li><a href="https://github.com/DataWithDaru" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+    </ul>
+
+
+
+
+    <script>
+        const cursor = document.querySelector('.cursor');
+
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style", "top: "+(e.pageY - 15)+"px; left: "+(e.pageX - 15) +"px;")
+        })
+
+        document.addEventListener('click', () => {
+            cursor.classList.add("expand");
+
+            setTimeout(() => {
+                cursor.classList.remove("expand");
+            }, 500)
+        })
+
+    </script>
+</body>
+</html>
