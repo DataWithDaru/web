@@ -56,7 +56,14 @@ footer, header, hgroup, menu, nav, section {
 
 
 
+/* Share this */
 
+.sharethis-inline-share-buttons{
+	box-shadow: 5px 5px 5px 5px black;
+	width: 30%;
+	margin: auto;
+	padding: 1%;
+}
 
 
 /* Project Page Header */
