@@ -2796,7 +2796,7 @@ input, select, textarea {
 			}
 
 			.icon.alt:before {
-				color: #1c1d26 !important;
+				color: white !important;
 				text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 			}
 
@@ -2833,7 +2833,7 @@ input, select, textarea {
 				}
 
 				.icon.major.alt:before {
-					color: #272833 !important;
+					color: white !important;
 					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 				}
 			.icon:hover {
