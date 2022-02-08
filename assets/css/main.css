@@ -205,13 +205,37 @@ DEMO
 	border-radius: 4px;
 }
 
+.news2{
+	position: relative;
+	left: -25%;
+	width: 70vw;
+	padding: 70px 6%;
+	border-right: 6px solid var(--mainColor);
+	box-shadow: 5px 5px 100px black;
+	border-radius: 4px;
+	text-align: right;
+}
+
 .news:nth-child(n+2){
+	margin-top: 3rem;
+}
+
+
+.news2:nth-child(n+2){
 	margin-top: 3rem;
 }
 
 .news__title{
 	font-family: 'Amaranth', sans-serif;
 	line-height: 1.25;
+	position: relative;
+}
+
+.news2__title{
+	font-family: 'Amaranth', sans-serif;
+	line-height: 1.25;
+	position: relative;
+	right: 0;
 }
 
 .news__link::after{
@@ -289,8 +313,6 @@ p{
 	.news__header{
 		display: flex;
 		align-items: flex-start;
-
-		padding-left: 1.5rem;
 		padding-right: 2.5rem;
 	}
 
@@ -3525,6 +3547,7 @@ input, select, textarea {
 	body.is-touch .spotlight {
 		background-attachment: scroll;
 	}
+
 
 /* Wrapper */
 
