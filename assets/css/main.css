@@ -2919,7 +2919,7 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 80%;
 			}
 
 /* List */
@@ -3322,8 +3322,9 @@ input, select, textarea {
 
 	.spotlight {
 		background-attachment: fixed;
-		background-position: center center;
-		background-size: cover;
+		background-position: left center;
+		background-repeat: no-repeat;
+		background-size: initial;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
 		height: 100vh;
 		overflow: hidden;
