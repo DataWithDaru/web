@@ -11,6 +11,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=61f93ada7e3130001966f170&product=sop' async='async'></script>
+        <link rel="stylesheet" href="assets/css/cursor.css">
 	</head>
 	
 	<body>
@@ -26,9 +27,6 @@
 						</ul>
 					</nav>
 			</header>
-
-	
-    <div class="cursor"></div>
    
     <div class="Iam">
 
@@ -56,22 +54,14 @@
     </ul>
 
 
-
-
-    <script>
-        const cursor = document.querySelector('.cursor');
-
-        document.addEventListener('mousemove', e => {
-            cursor.setAttribute("style", "top: "+(e.pageY - 15)+"px; left: "+(e.pageX - 15) +"px;")
-        })
-
-        document.addEventListener('click', () => {
-            cursor.classList.add("expand");
-
-            setTimeout(() => {
-                cursor.classList.remove("expand");
-            }, 500)
-        })
+    <script src="https://unpkg.com/kursor"></script>
+			<script>
+				new kursor({
+					type: 1,
+					color: '#FFFFFF',
+					removeDefaultCursor: true
+				})
+			</script>
 
     </script>
 </body>
