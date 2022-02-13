@@ -12,6 +12,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=61f93ada7e3130001966f170&product=sop' async='async'></script>
+		<link rel="stylesheet" href="assets/css/cursor.css">
+
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -36,7 +38,6 @@
 
 			<!-- Main -->
 				<div id="main" class="wrapper style1">
-					<div class="cursor"></div>
 					<div class="container">			
 					
 						<section class="wrapper style1 special fade-up" style="padding-bottom: 30%; padding-top: 5%;">
@@ -66,48 +67,38 @@
 								</div>
 						</section>
 						<!-- Content -->
-						
-						<div class="page">
-						<div class="page__section">
-							<div class="page__group">
-								<article class="news">
-									<header class="news__header">
-										<h3 class="r-title news__title">
-											
-											<a href="databases.html" class="r-link animated-underline animated-underline_type1 news__link">
-												Databases
-											</a>
-										</h3>	
-									</header>
-									<div class="news__content">
-										<p>
-											Understanding datasets and working with them are my bread and butter. You cannot create a good and reliable report/model unless you understand the data that's being used for that report/model.  
-											That is why most of my time spent as a Business Intelligence Developer is within SQL; to get the data, transform it, shape it and use it for whatever purpose. In this section, I will show you some of my daily tasks.
-										</p>
-									</div>
-								</article>
-							</div>
-						</div>	
-						<div class="page__section">
-							<div class="page__group">
-								<article class="news2">
-									<header class="news2__header">
-										<h3 class="r-title news__title">
-											
-											<a href="report.html" class="r-link animated-underline animated-underline_type1 news__link">
-												Reporting
-											</a>
-										</h3>	
-									</header>
-									<div class="news__content">
-										<p>
-											Just having useful data is not enough. Data is an individual unit that contains raw materials which do not carry any specific meaning. Information is a group of data that collectively carries a logical meaning, and displaying this valuable asset in a way that makes sense to the business is what this section is all about
-										</p>
-									</div>
-								</article>
-							</div>
-						</div>	
-						</div>				
+
+						<div class="wrapper style1">
+						<div style="border-left: 6px solid #e44c65; width: 100%;height: 100%;margin:auto;	padding: 20px;box-shadow: 5px 5px 100px black;border-radius: 4px;">
+							<header class="news2__header">
+								<h3 class="r-title news__title" style="padding: 20px;">
+									
+									<a href="https://github.com/DataWithDaru/sql/tree/main/Scripts" class="r-link animated-underline animated-underline_type1 news__link">
+										Databases
+									</a>
+								</h3>	
+							</header>
+							<p style="padding: 20px;">
+								Understanding datasets and working with them are my bread and butter. You cannot create a good and reliable report/model unless you understand the data that's being used for that report/model.  
+								That is why most of my time spent as a Business Intelligence Developer is within SQL; to get the data, transform it, shape it and use it for whatever purpose. In this section, I will show you some of my daily tasks.
+							</p>
+						</div>
+						</div>
+						<div class="wrapper style1">
+						<div style="opacity: 100%; background-color:#1c1d26; border-right: 6px solid #fff; width: 100%;height: 100%;margin:auto;padding: 20px;box-shadow: 5px 5px 100px black;border-radius: 4px;">
+							<header class="news2__header">
+								<h3 class="r-title news__title" style="padding: 20px;">
+									
+									<a href="https://github.com/DataWithDaru/sql/tree/main/Procedures" class="r-link animated-underline animated-underline_type1 news__link" >
+										Reporting
+									</a>
+								</h3>	
+							</header>
+							<p style="padding: 20px;">
+								Just having useful data is not enough. Data is an individual unit that contains raw materials which do not carry any specific meaning. Information is a group of data that collectively carries a logical meaning, and displaying this valuable asset in a way that makes sense to the business is what this section is all about
+							</p>
+						</div>
+						</div>
 					</section>	
 					</div>
 				</div>
@@ -151,31 +142,25 @@
 			<div class="spacer layer1"></div>
 
 			<!-- Footer -->
-			<footer id="footer"style="margin-top: -350px;">
+			<footer id="footer">
 				<a  href="#main" class="icon alt solid major fa-arrow-circle-up scrolly"></a>
 				<ul class="copyright">
-					<div class="sharethis-inline-share-buttons" style="margin-top:-2vw;"></div>
+					<div class="sharethis-inline-share-buttons" style="margin-top:-2vw; width: 80%;flex-wrap: wrap;"></div>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</footer>
-
 		</div>
 
 		<!-- Scripts -->
+			<script src="https://unpkg.com/kursor"></script>
 			<script>
-				const cursor = document.querySelector('.cursor');
-
-				document.addEventListener('mousemove', e => {
-					cursor.setAttribute("style", "top: "+(e.pageY - 15)+"px; left: "+(e.pageX - 15)+"px;")
+				new kursor({
+					type: 1,
+					color: '#FFFFFF',
+					removeDefaultCursor: true
 				})
-
-				document.addEventListener('click', () => {
-					cursor.classList.add("expand");
-
-					setTimeout(() => {
-						cursor.classList.remove("expand");
-					}, 500)
-				})
-
 			</script>
 
 			<script src="assets/js/jquery.min.js"></script>

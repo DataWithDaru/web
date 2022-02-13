@@ -11,9 +11,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<!--Lotti Files-->
-		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 		<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=61f93ada7e3130001966f170&product=sop' async='async'></script>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="assets/css/cursor.css">
+
 	</head>
 	
 	<body class="is-preload landing">
@@ -24,7 +25,7 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a>Projects</a>
+							<li><a href="projects.html">Projects</a>
 								<ul>
 									<li><a href="databases.html">Databases</a></li>
 									<li><a href="report.html">Reporting</a></li>
@@ -40,7 +41,6 @@
 			<!-- Banner -->
 
 			<div id="main" class="wrapper style1">
-				<div class="cursor"></div>
 				<div class="container">		
 	
 			<section class="wrapper style1 special fade-up" style="padding-bottom: 30%; padding-top: 5%;">
@@ -74,16 +74,18 @@
 				
 			<!-- Two -->
 			<!-- Tableau -->
+		
 		<div class="wrapper style1">
 		<span id="two"  class="page__name-effect" style="margin-left: 5%;">Reporting</span>
 		<section  style="padding-bottom: 5%;">
-				<div style="display: flex; justify-content: space-around;align-items: center;align-content: flex-end;">
-						<div style="width: 70%;margin-left: 5%; margin-top: 2%;">
-							<div class='tableauPlaceholder' id='viz1643189733123' 
-							style='box-shadow: 5px 5px 100px black;'><object class='tableauViz'  ><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Covid-19_16382720975240&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div> 
-						</div>
+				<div class="report-left" style="display: flex; justify-content: space-evenly;align-items: center;">
+					
+						<div style="width:50%; margin-top: 2%; box-shadow: 5px 5px 100px black;" class='tableauPlaceholder' id='viz1643189733123' 
+							><object class='tableauViz'  ><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Covid-19_16382720975240&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object>
+						</div> 
+						
 												
-						<div style="border-left: 6px solid #e44c65; width: 25%;height: 100%;margin-right: 5%;margin-top: 30px;	padding: 20px;box-shadow: 5px 5px 100px black;border-radius: 4px;">
+						<div class="center border-left" style="border-left: 6px solid #e44c65; width:30%; height: 100%;	padding: 20px;box-shadow: 5px 5px 100px black;border-radius: 4px;">
 							<header class="news2__header">
 								<h3 class="r-title news__title" style="padding: 20px;">
 									
@@ -105,9 +107,9 @@
 		<!-- PowerBI -->
 		<div class="wrapper style2">
 			<section id="two" style="padding-bottom: 5%;">
-					<div style="display: flex; justify-content: space-around;align-items: center;align-content: flex-end;">
+					<div class="report-right" style="display: flex; justify-content: space-evenly;align-items: center;">
 																	
-							<div style="opacity: 100%; background-color:#1c1d26; border-right: 6px solid #fff; width: 35%;height: 100%;margin-left: 5%;padding: 20px;box-shadow: 5px 5px 100px black;border-radius: 4px;">
+							<div class="center border-right"  style="opacity: 100%; background-color:#1c1d26; border-right: 6px solid #fff; width: 30%;height: 100%;margin-left: 5%;padding: 20px;box-shadow: 5px 5px 100px black;border-radius: 4px;">
 								<header class="news2__header">
 									<h3 class="r-title news__title" style="padding: 20px;">
 										
@@ -124,32 +126,36 @@
 									It integrates seamlessly with so many applications, it has great AI capabilities, it's secure, it's beatiful and is definitely worth looking into if you have not already done so.
 								</p>
 							</div>
-
-							<iframe title="Covid19" width="1024" height="612" style="position:relative; margin: auto;left: 0%; box-shadow: 5px 5px 100px black;" src="https://www.powerbi.com/view?r=eyJrIjoiYzM5ZDVmNGUtYzkzNi00NDFhLTg3ZmYtMDFhZjAzZDI1MTc5IiwidCI6IjUxOWJmYTQwLTQ4NzItNGEzNy1hNTc5LWY0NDYzY2M2MWEwZSIsImMiOjl9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+							<div >
+								<iframe title="Covid19" width="1024" height="612" style="position:relative; margin: auto; box-shadow: 5px 5px 100px black;" src="https://www.powerbi.com/view?r=eyJrIjoiYzM5ZDVmNGUtYzkzNi00NDFhLTg3ZmYtMDFhZjAzZDI1MTc5IiwidCI6IjUxOWJmYTQwLTQ4NzItNGEzNy1hNTc5LWY0NDYzY2M2MWEwZSIsImMiOjl9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+							</div>
+							
 					</div>			
 			</section>
 			</div>
 			<!-- Paginated -->
 			<div class="wrapper style1">
-				<section id="two" style="padding-bottom: 5%;">
-						<div style="display: flex; justify-content: space-around;align-items: center;align-content: flex-end;">
-								<iframe width="681.1" height="786" style="position:relative; left: 5%; box-shadow: 5px 5px 100px black;" src="https://www.powerbi.com/rdlEmbed?reportId=cd2f3aa2-d523-4008-a91f-836011463691&autoAuth=true&ctid=519bfa40-4872-4a37-a579-f4463cc61a0e" frameborder="0" allowFullScreen="true"></iframe>
-														
-								<div style="border-left: 6px solid #e44c65; width: 40%;height: 100%;margin-right: 5%;	padding: 20px;box-shadow: 5px 5px 100px black;border-radius: 4px;">
-									<header class="news2__header">
-										<h3 class="r-title news__title" style="padding: 20px;">
-											
-											<a href="report.html" class="r-link animated-underline animated-underline_type1 news__link">
-												Paginated Reports
-											</a>
-										</h3>	
-									</header>
-									<p style="padding: 20px;">
-										Paginated reports are something every company is or should be using. PowerBI has some stunning report features but sometimes that is just not what's required. In the industry of insurance, you need to understand where the money is going, how the brokers are doing, and that's great for using Power BI Desktop, but you also need to print policy schedules; that's where Report Builder/SSRS comes into play. Usually, these kinds of reports have sensitive data that one cannot make known to the general public, therefore I have decided to show you Microsoft's secure embed option. I have added a copy of the report so you can still have a look at how it would print on paper, download it by clicking on the below button, enjoy! 
-									</p>
-									<a href="files/Daru Broodryk - CV.pdf" class="small button primary icon solid fa-download">Take a look</a>
-								</div>
-						</div>				
+				<section id="two" >
+					<div class="report-left" style="display: flex; justify-content: space-evenly;align-items: center;padding-bottom: 5%;">
+						<div>
+							<iframe width="681.1" height="786" style="position:relative; left: 5%; box-shadow: 5px 5px 100px black;" src="https://www.powerbi.com/rdlEmbed?reportId=cd2f3aa2-d523-4008-a91f-836011463691&autoAuth=true&ctid=519bfa40-4872-4a37-a579-f4463cc61a0e" frameborder="0" allowFullScreen="true"></iframe>
+						</div>
+						<div class="center border-left" style="border-left: 6px solid #e44c65; width: 30%;height: 100%;margin-right: 5%;	padding: 20px;box-shadow: 5px 5px 100px black;border-radius: 4px;">
+								<header class="news2__header">
+									<h3 class="r-title news__title" style="padding: 20px;">
+										
+										<a href="report.html" class="r-link animated-underline animated-underline_type1 news__link">
+											Paginated Reports
+										</a>
+									</h3>	
+								</header>
+								<p style="padding: 20px;">
+									Paginated reports are something every company is or should be using. PowerBI has some stunning report features but sometimes that is just not what's required. In the industry of insurance, you need to understand where the money is going, how the brokers are doing, and that's great for using Power BI Desktop, but you also need to print policy schedules; that's where Report Builder/SSRS comes into play. Usually, these kinds of reports have sensitive data that one cannot make known to the general public, therefore I have decided to show you Microsoft's secure embed option. I have added a copy of the report so you can still have a look at how it would print on paper, download it by clicking on the below button, enjoy! 
+								</p>
+								<a href="files/Daru Broodryk - CV.pdf" class="small button primary icon solid fa-download">Take a look</a>
+						</div>	
+					</div>
+									
 				</section>
 			</div>
 
@@ -196,33 +202,26 @@
 				<div class="spacer layer1"></div>
 			
 			<!-- Footer -->
-				<footer id="footer" style="margin-top: -350px;">
+				<footer id="footer">
 					<a  href="#page-wrapper" class="icon alt solid major fa-arrow-circle-up scrolly"></a>
 					<ul class="copyright">
 						<div class="sharethis-inline-share-buttons" style="margin-top:-2vw;"></div>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</footer>
 
 		</div>
 
 		<!-- Scripts -->
+			<script src="https://unpkg.com/kursor"></script>
 			<script>
-				const cursor = document.querySelector('.cursor');
-
-				document.addEventListener('mousemove', e => {
-					cursor.setAttribute("style", "top: "+(e.pageY - 15)+"px; left: "+(e.pageX - 15) +"px;")
+				new kursor({
+					type: 1,
+					color: '#FFFFFF',
+					removeDefaultCursor: true
 				})
-
-				document.addEventListener('click', () => {
-					cursor.classList.add("expand");
-
-					setTimeout(() => {
-						cursor.classList.remove("expand");
-					}, 500)
-				})
-
-				document.querySelector('video').defaultPlaybackRate = 0.1
-
 			</script>
 
             <script type='text/javascript'>var divElement = document.getElementById('viz1643189733123');
