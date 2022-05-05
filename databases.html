@@ -85,9 +85,9 @@
                                                         </a>
                                                     </h3>	
                                                 </header>
-                                                <p style="padding: 20px;">
-                                                    You always need a method to fetch data, either once or multiple times. The ETL method you use to get your data depends on the situation. If you need to get it from a source more than once, then you would use SSIS (if you are using SQL Server) or Power Query Editor(if you are using PowerBI); in this case, we had to onboard a client to our application which required a data import that had to be run once. I took the raw data given to us by the client and imported it into a table I created in SQL, from there I inserted the data into the corresponding tables, I edited to code to hide real table names, as well as confidential data, enjoy the read!
-                                                </p>
+												<p style="padding: 20px;">
+												You always need a method to fetch data, either once or multiple times. The ETL/ELT method you use to get your data depends on the situation. If you need to get it from a source more than once, then you would probably do it in your code (either Python/C# or whatever you use) or you could use SSIS if you are using SQL Server, or Power Query Editor if you are using PowerBI. In this case, we had to onboard a client to our application which required a data import that had to be run once. I took the raw data given to us by the client and imported it into a table I created in SQL, from there I inserted the data into the corresponding tables, and I edited the code to hide real table names, as well as confidential data, enjoy the read!
+												</p>
                                             </div>
                                     </div>				
                             </section>
@@ -107,9 +107,9 @@
                                                             </a>
                                                         </h3>	
                                                     </header>
-                                                    <p style="padding: 20px;">
-                                                        When you work with SQL a lot, it's a good idea to start using procedures... FOR EVERYTHING! In the BI team, we created procedures for every single report's main dataset, we tried to steer clear of ever writing SQL inside of SSRS. We did this for multiple reasons, firstly to have all the code centralised within SSMS, secondly, to improve performance on the report itself. These are some of the types of procedures we would write/amend on a daily basis.
-                                                    </p>
+													<p style="padding: 20px;">
+														When you work with SQL a lot, it's a good idea to start using procedures... FOR EVERYTHING! In the BI team, we created procedures for every single report's main dataset, we tried to steer clear of ever writing SQL inside of SSRS. We did this for multiple reasons, firstly to have all the code centralized within SSMS, and secondly, to improve performance on the report itself. These are some of the types of procedures we would write/amend on a daily basis.
+													</p>
                                                 </div>
 												<div class="lottie-player-right" style="width: 400px; height: 400px; margin-right: 5%;margin-left: 5%;" >
 													<lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_x17ybolp.json"  background="transparent"  speed="1"   loop  autoplay></lottie-player>
@@ -165,7 +165,7 @@
 								<input type="email" name="email" id="email" value="" placeholder="Email" required />
 							</div>							
 							<div class="col-12">
-								<textarea name="message" id="message" placeholder="Say somethiong.." rows="2"></textarea>
+								<textarea name="message" id="message" placeholder="Say something.." rows="2"></textarea>
 							</div>
 							<div class="col-12">
 								<ul class="actions">
