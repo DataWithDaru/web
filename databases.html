@@ -30,7 +30,7 @@
 							<li><a href="index.html">Home</a></li>
 							<li><a href="projects.html">Projects</a>
 								<ul>
-									<li><a href="databases.html">Databases</a></li>
+									<li><a href="databases.html">Data Engineering</a></li>
 									<li><a href="report.html">Reporting</a></li>
 									<li><a href="oop.html">Object-oriented</a></li>
 									<li><a href="data_science.html">Data Science</a></li>
@@ -88,8 +88,9 @@
                                                     </h3>	
                                                 </header>
 												<p style="padding: 20px;">
-												You always need a method to fetch data, either once or multiple times. The ETL/ELT method you use to get your data depends on the situation. If you need to get it from a source more than once, then you would probably do it in your code (either Python/C# or whatever you use) or you could use SSIS if you are using SQL Server, or Power Query Editor if you are using PowerBI. In this case, we had to onboard a client to our application which required a data import that had to be run once. I took the raw data given to us by the client and imported it into a table I created in SQL, from there I inserted the data into the corresponding tables, and I edited the code to hide real table names, as well as confidential data, enjoy the read!
-												</p>
+													You always need a method to fetch data, whether it's a one-time task or a recurring process. The ETL/ELT method you choose depends on the situation. For recurring data retrieval, you might use coding languages like Python or C#, or leverage modern tools like Azure Data Factory (ADF) and Databricks, which are popular among the companies we work with. If you're dealing with legacy systems that haven't migrated to the cloud yet, SSIS could be your go-to option.
+
+													It's challenging to demonstrate our work in those modern tools, but here's an example of a recent project. We had to onboard a client to our application, which required a one-time data import. I took the raw data provided by the client, imported it into a table I created in SQL, and then inserted the data into the corresponding tables. I've edited the code to hide real table names and confidential data. Enjoy the read!												</p>
                                             </div>
                                     </div>				
                             </section>
@@ -110,7 +111,7 @@
                                                         </h3>	
                                                     </header>
 													<p style="padding: 20px;">
-														When you work with SQL a lot, it's a good idea to start using procedures... FOR EVERYTHING! In the BI team, we created procedures for every single report's main dataset, we tried to steer clear of ever writing SQL inside of SSRS. We did this for multiple reasons, firstly to have all the code centralized within SSMS, and secondly, to improve performance on the report itself. These are some of the types of procedures we would write/amend on a daily basis.
+														When you work with SQL frequently, it's smart to start using procedures for most tasks! On the Data team, we created procedures for the main dataset of every single report. We avoided writing SQL directly in SSRS and preferred using views in PowerBI. We did this for several reasons: primarily for maintenance, to keep all the code centralized within the database rather than embedded in reports is a live saver, and secondly, to enhance the performance of the reports. These are some of the types of procedures we would write or amend on a daily basis.
 													</p>
                                                 </div>
 												<div class="lottie-player-right" style="width: 400px; height: 400px; margin-right: 5%;margin-left: 5%;" >
@@ -138,12 +139,12 @@
                                                     <h3 class="r-title news__title" style="padding: 20px;">
                                                         
                                                         <a href="https://github.com/DataWithDaru/sql/tree/main/Scripts" class="r-link animated-underline animated-underline_type1 news__link">
-                                                            Scripts
+                                                            Maintenance Scripts
                                                         </a>
                                                     </h3>	
                                                 </header>
                                                 <p style="padding: 20px;">
-                                                    When working with data, one should know how messy things can get. If it wasn't for messy data, we would probably not have jobs! This is why a business intelligence developer must understand how to navigate data, identify anomalies and fix them. 
+                                                    When working with data, one should know how messy things can get. If it wasn't for messy data, we would probably not have jobs! This is why every Data Engineer must understand how to navigate data, identify anomalies and fix them. 
                                                 </p>
                                             </div>
                                     </div>				
