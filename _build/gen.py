@@ -41,7 +41,7 @@ def header(current):
     items = ''.join(
         f'\t\t\t\t<li><a href="{h}"{" aria-current=\"page\"" if h == current else ""}>{t}</a></li>\n' for h, t in NAV)
     return f'''	<header class="site-header">
-		<a class="logo" href="index.html" aria-label="Daru Broodryk, home">DARU</a>
+		<a class="logo" href="index.html" aria-label="Daru Broodryk portfolio, home">PORTFOLIO</a>
 		<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
 		<nav class="nav" id="nav" aria-label="Main">
 			<ul>
