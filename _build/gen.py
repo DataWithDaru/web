@@ -164,13 +164,13 @@ def index():
 				</a>
 '''
     letter_items = ''.join(f'\t\t\t\t\t\t\t<li><strong>{t}</strong>{d}</li>\n' for t, d in TESTIMONIAL_ITEMS)
-    body = f'''{head('Daru Broodryk | Data &amp; AI Consultant', 'Daru Broodryk, Data &amp; AI Consultant at FIRN Analytics in Auckland: Snowflake and dbt platforms, AI enablement with Claude Code, and the people side of data.', 'index.html')}{header('index.html')}	<main id="main">
+    body = f'''{head('Daru Broodryk | Senior Consultant', 'Daru Broodryk, Senior Consultant at FIRN Analytics in Auckland: Snowflake and dbt platforms, AI enablement with Claude Code, and the people side of data.', 'index.html')}{header('index.html')}	<main id="main">
 		<section class="hero" id="top" aria-label="Introduction">
 			<div class="code-word" data-word="Daru" aria-hidden="true"><canvas></canvas></div>
 			<img class="hero-portrait" src="images/portrait.webp" width="585" height="774" alt="Daru Broodryk" fetchpriority="high" />
 			<div class="hero-meta">
 				<div>
-					<h1 class="role">Daru Broodryk<br />Data &amp; AI Consultant</h1>
+					<h1 class="role">Daru Broodryk<br />Senior Consultant</h1>
 					<p>FIRN Analytics · Auckland</p>
 				</div>
 				<p class="scroll-cue">Scroll</p>
